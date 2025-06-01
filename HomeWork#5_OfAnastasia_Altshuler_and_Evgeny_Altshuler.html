@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">JS</title>
+  <style>
+    .color-box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+  </style>
+</head>
+<body>
+  //************************************************************************************************
+  // HOME WORK №5 OF ANASTASIIA ALTSHULER
+  // AND EVGENY ALTSHULER
+  /*************************************************************************************************/
+<br><br>
+  /****************************************HWTask#1+HWTask#2****************************************/
+
+  <div id="hoverBox" style="width:100px; height:100px; background-color: gray;" onmouseover="HWTask1()" onmouseout="resetHWTask1()"></div>
+  <br><br>
+
+  /****************************************HWTask#3****************************************/
+
+  <br><br>
+  <button id="clickBtn" onclick="countOfClick()">לחץ כאן</button>
+  <p>נלחץ: <span id="clickCount">0</span> פעמים</p>
+  <br><br>
+
+
+/****************************************Task#1+Task#2****************************************/
+<br><br>
+  <h1 id="task1" style="display:block;">Lets try to do HW</h1>
+  <button id="button1" value="Change Color to Blue" onclick="colorChange()" >Click to Change Color to Blue</button>
+  <button id="button2" value="Hide the title" onclick="hideTitle()">Click to Hide the title</button>
+<br><br><br>
+  /***************************************#Task3***************************************************/
+  <br><br>
+  <h2 id="anotherText" onclick="changeText()">Click for change the text</h2>
+  <br><br>
+
+  /***************************************#Task4***************************************************/
+
+  <br><br>
+  <p id="task4" style="display: block;">Space debris is a collection of artificial objects and their fragments in Earth orbit that no longer perform a useful
+  function and pose a threat to active spacecraft and, in some cases, to Earth. It includes defunct satellites, rocket
+  stages, fragments, and other waste products of space activities.</p>
+  <button id="task4Button" onclick="hidetexttask4()">Hide the text</button>
+  <br><br><br>
+
+  /***************************************#Task5***************************************************/
+
+  <br><br>
+  <div id="colorBox" class="color-box" onmouseover="changeColor()" onmouseout="resetColor()">
+    Hover over me!
+  </div>
+  
+</body>
+<script src="./Home_Work_5_Of_Anastasia_Altshuler_And_Evgeny_Altshuler.js"></script>
+</html>
