@@ -1,0 +1,2 @@
+# js_hw_5
+Home_Work_#5_Of_Anastasia_Altshuler_and_Evgeny_Altshuler
